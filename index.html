@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Юрист ДДУ</title>
+  </head>
+  <body class="overflow-x-hidden text-gray-800 text-lg">
+    <div class="relative z-10">
+      <div class="section">
+        <div
+          class="max-w-[90rem] space-y-16 backdrop-blur-md p-16 rounded-[4rem] relative bg-gray-200 bg-opacity-50"
+        >
+          <h1 class="text-h1">Помощь дольщикам в спорах с застройщиком</h1>
+          <p>
+            ЮристДДУ – юридическая компания, которая c 2019 года помогает своим
+            клиентам законно взыскивать неустойку по договорам долевого участия
+            с недобросовестных застройщиков.
+          </p>
+          <ul class="flex gap-8">
+            <li class="card">
+              <p class="text-h2 mb-4">5 лет</p>
+              успешной юридической практики
+            </li>
+            <li class="card">
+              <p class="text-h2 mb-4">110</p>
+              среднее количество консультаций в месяц
+            </li>
+            <li class="card">
+              <p class="text-h2 mb-4">556</p>
+              успешных дел, проведенных специалистами нашей фирмы
+            </li>
+          </ul>
+          <a class="main-button" href="#form"
+            >Получить бесплатную консультацию</a
+          >
+        </div>
+      </div>
+      <div class="section">
+        <div class="max-w-[1400px] space-y-8">
+          <h2 class="text-h2">Как мы вам поможем?</h2>
+          <ul>
+            <li>Досудебное урегулирование спора</li>
+            <li>Обращение с жалобой в контролирующие органы</li>
+            <li>Судебная помощь дольщикам</li>
+            <li>Предварительный анализ рисков будущей сделки</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="max-w-[1400px]">
+          <h2 class="text-h2">
+            Стоимость наших услуг по взысканию компенсаций с застройщика
+          </h2>
+          <p>
+            Вы не вносите предоплату, наше вознаграждение рассчитывается в виде
+            процента, исходя из платежеспособности Вашего застройщика,
+            документов, обстоятельств дела, выбранной подсудности.
+          </p>
+          <div>
+            <div>
+              ВЗЫСКАНИЕ НЕУСТОЙКИ ЗА НАРУШЕНИЕ СРОКОВ ПЕРЕДАЧИ ОБЪЕКТА 10-20%*
+              от взысканной суммы
+            </div>
+            <div>
+              ВЗЫСКАНИЕ КОМПЕНСАЦИИ ЗА СТРОИТЕЛЬНЫЕ НЕДОСТАТКИ 10-20%* от
+              взысканной суммы
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="form">
+        <div class="max-w-[1400px]">
+          <h2 class="text-h2">Отправьте запрос на бесплатную консультацию</h2>
+          <form class="form">
+            <label>
+              Ваш номер телефона
+              <input type="tel" class="input" placeholder="+79998887766" />
+            </label>
+            <label>
+              Ваше имя
+              <input type="text" class="input" placeholder="Иван" />
+            </label>
+            <label>
+              По какому вопросу хотите получить консультацию
+              <input
+                type="tel"
+                class="input"
+                placeholder="Спор с застройщиком"
+              />
+            </label>
+            <button class="button">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <canvas class="absolute left-0 top-0" id="bg"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
